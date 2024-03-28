@@ -1,0 +1,129 @@
+body {
+  margin-left: 40px;
+}
+
+.top_block {
+  margin-top: 20px;
+}
+
+.top_block a {
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  color: #000000;
+  text-decoration: none;
+  position: absolute;
+  right:5%;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+.infotime img {
+  position: relative;
+  left: 115px;
+}
+
+.dataTable {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.dataTable tr td {
+  color: #696969;
+  padding: 0px 25px;
+}
+
+.dataTable tr th {
+  font-size: 24px;
+  padding: 10px;
+  border: 1px solid #000000;
+  /*border-radius: 20%;  не работает ??? */
+}
+
+.dataTable tr th.activ {
+  color:rgb(255, 16, 16);
+  background-color: gold;
+}
+
+.form {
+  list-style-type:none;
+}
+
+.form li {
+  padding:9px;
+  position:relative;
+}
+
+.form label {
+  width:150px;
+  margin-top: 3px;
+  display:inline-block;
+  padding:3px;
+}
+
+.form input {
+  height:25px;
+  width:210px;
+  padding:5px 8px;
+  border-radius: 5px;
+  border-bottom: 0.5px solid #f0f0f0;
+}
+
+.form .name {
+  width:350px;
+}
+
+.checkbox {
+  border-radius: 40%;
+  margin:10px;
+}
+
+.checkpanel {
+  font-size: 12px;
+  color: #747474;
+}
+
+.checkpanel a {
+  color: #e0b010;
+  text-decoration: none;
+}
+
+.iamfirsthere label {
+  font-size: 16px;
+  color: #000000;
+}
+
+.iamright {
+  margin: 20px 0px 20px 0px;
+}
+
+.iamright label {
+  font-size: 13px;
+  color: #000000;
+}
+
+#bRegistry {
+  font-size: 20px;
+  color: #000000;
+  background-color: #ffae00;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  height: 45px;
+  margin-top: 30px;
+}
+
+#infoCompany {
+  font-size: 12px;
+  color: #747474;
+  margin: 25px 0 10px 0;
+}
+
+#infoPolitic {
+  font-size: 12px;
+  color: #f1a500;
+  text-decoration: none;
+}
